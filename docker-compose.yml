@@ -1,0 +1,11 @@
+version: "3"
+services:
+  nextjs-app:
+    build: ./nextjs
+    ports:
+      - "3000:3000"
+  spring-boot-app:
+    build: ./SpringBoot
+    ports:
+      - "8080:8080"
+    command: --spring.data.mongodb.uri=mongodb://host.docker.internal:27017/springBoot
