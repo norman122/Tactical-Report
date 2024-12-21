@@ -1,11 +1,13 @@
 ## Spring Boot
+  
   Step 1: Initiated the project using Spring Initializer
-    Website link: https://start.spring.io/
-    Added Dependencies:
-    1- Spring Web
-    2- Spring Data MongoDB
-    3- Spring Boot DevTools
-    4- Validation
+  
+      Website link: https://start.spring.io/
+      Added Dependencies:
+      1- Spring Web
+      2- Spring Data MongoDB
+      3- Spring Boot DevTools
+      4- Validation
     
   Step 2: Extracted the project and launched it in the IDE
     
